@@ -136,11 +136,11 @@
 	NetReachability* reachability = [[NetReachability alloc] initWithDefaultRoute:NO];
 	if(![reachability isReachable] || (!delegate.isUsingGPRS && [reachability isUsingCell])) 
 	{
-    UIAlertController* controller = [UIAlertController alertControllerWithTitle:nil message:<#(nullable NSString *)#> preferredStyle:<#(UIAlertControllerStyle)#>]
-		UIAlertView* alertView = [[UIAlertView alloc] initWithTitle:nil message:@"Máy của bạn cần có kết nối Internet để tải được thông tin mới nhất từ máy chủ." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-		[alertView show];
-		[alertView release];
-		[reachability release];
+    UIAlertController* controller = [UIAlertController alertControllerWithTitle:nil message:@"Máy của bạn cần có kết nối Internet để tải được thông tin mới nhất từ máy chủ." preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction* action = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {}];
+    [controller addAction:action];
+    [self presentViewController:controller animated:YES completion:nil];
+    [reachability release];
 		return NO;
 	}
 	[reachability release];
@@ -196,122 +196,19 @@
 	NSString *detailWeatherPage;
 	NSScanner *scanner;
 	NSString *htmlWarning;
-//	BOOL bScanned;
-//	NSInteger scanLocation;
-	
+
 	if (weatherData)
 	{
 		detailWeatherPage = [[[NSString alloc] initWithData:weatherData encoding:NSUTF8StringEncoding] autorelease];
 		scanner = [NSScanner scannerWithString:detailWeatherPage];
-//		bScanned = YES;
-		
+
 		htmlWarning = [self getWarningString:scanner];
 		if (![htmlWarning isEqualToString:@""])
 		{
 			isCanGetData = YES;
-			[arrWarnings replaceObjectAtIndex:index withObject:retStr];
-			}
-		}
-		// Lay ngay cap nhat thoi tiet
-/*		bScanned = [scanner scanUpToString:@"nav_link_title bgr_bottomLineDetail" intoString:NULL];
-		bScanned = [scanner scanString:@"nav_link_title bgr_bottomLineDetail" intoString:NULL];
-		if (bScanned)
-		{
-			isCanGetData = YES;
-			scanLocation = [scanner scanLocation];
-			
-			bScanned = [scanner scanUpToString:@"_ctl1__ctl1__ctl0_lbl_Nodata_TTNH" intoString:NULL];
-			bScanned = [scanner scanString:@"_ctl1__ctl1__ctl0_lbl_Nodata_TTNH" intoString:NULL];
-			if (!bScanned)
-			{
-//				if (index == 0)
-//				{
-//					NSString* tmpStr = @"Hiện nay (l&#250;c 17h30 ph&#250;t ng&#224;y 13/8) ở khu vực ph&#237;a đ&#244;ng nam của H&#224; Nội đang xuất hiện một đ&#225;m m&#226;y d&#244;ng dịch chuyển về ph&#237;a khu vực trung t&#226;m th&#224;nh phố H&#224; Nội.";
-//				tmpStr = replaceSpecialString(tmpStr);
-//				tmpStr = [self deleteHTMLFormatSlyte:tmpStr];
-//				[arrWarnings replaceObjectAtIndex:index withObject:tmpStr];
-//				}
-//			}
-//			else 
-//			{
-				NSString *tmpStr1 = @"";
-				NSString *tmpStr2 = @"";
-
-				[scanner setScanLocation:scanLocation];
-				bScanned = [scanner scanUpToString:@"TitleNews_Special" intoString:NULL];
-				bScanned = [scanner scanString:@"TitleNews_Special" intoString:NULL];
-				if (bScanned)
-				{
-					scanLocation = [scanner scanLocation];
-					bScanned = [scanner scanUpToString:@">" intoString:NULL];
-					bScanned = [scanner scanString:@">" intoString:NULL];
-					if (bScanned)
-					{
-						bScanned = [scanner scanUpToString:@"</td>" intoString:&tmpStr1];
-						tmpStr1 = replaceSpecialString(tmpStr1);
-						tmpStr1 = 
-						//tmpStr1 = [self deleteHTMLFormatSlyte:tmpStr];
-					}
-				}
-				else 
-				{
-					[scanner setScanLocation:scanLocation];
-				}
-				
-				bScanned = [scanner scanUpToString:@"<DIV" intoString:NULL];
-				bScanned = [scanner scanString:@"<DIV" intoString:NULL];
-				if (bScanned)
-				{
-					scanLocation = [scanner scanLocation];
-					bScanned = [scanner scanUpToString:@">" intoString:NULL];
-					bScanned = [scanner scanString:@">" intoString:NULL];
-					if (bScanned)
-					{
-						bScanned = [scanner scanUpToString:@"</DIV>" intoString:&tmpStr2];
-						//tmpStr1 = replaceSpecialString(tmpStr1);
-						//tmpStr1 = [self deleteHTMLFormatSlyte:tmpStr];
-					}
-				}
-				else 
-				{
-				}
-				
-//				bScanned = [scanner scanUpToString:@"SummryNews" intoString:NULL];
-//				bScanned = [scanner scanString:@"SummryNews" intoString:NULL];
-//				if (bScanned)
-//				{
-//					scanLocation = [scanner scanLocation];
-//					bScanned = [scanner scanUpToString:@">" intoString:NULL];
-//					bScanned = [scanner scanString:@">" intoString:NULL];
-//					if (bScanned)
-//					{
-//						bScanned = [scanner scanUpToString:@"</td>" intoString:&tmpStr1];
-//						tmpStr1 = replaceSpecialString(tmpStr1);
-//						tmpStr1 = [self deleteHTMLFormatSlyte:tmpStr1];
-//					}
-//				}
-//				else 
-//				{
-//					[scanner setScanLocation:scanLocation];
-//				}
-//				bScanned = [scanner scanUpToString:@"ContentNews" intoString:NULL];
-//				bScanned = [scanner scanString:@"ContentNews" intoString:NULL];
-//				if (bScanned)
-//				{
-//					scanLocation = [scanner scanLocation];
-//					bScanned = [scanner scanUpToString:@">" intoString:NULL];
-//					bScanned = [scanner scanString:@">" intoString:NULL];
-//					if (bScanned)
-//					{
-//						bScanned = [scanner scanUpToString:@"</td>" intoString:&tmpStr2];
-//						tmpStr2 = replaceSpecialString(tmpStr2);
-//						tmpStr2 = [self deleteHTMLFormatSlyte:tmpStr2];
-//					}
-//				}
-				[arrWarnings replaceObjectAtIndex:index withObject:[NSString stringWithFormat:@"%@\n\n%@", tmpStr1, tmpStr2]];
-			}
-		}*/
-	}
+			[arrWarnings replaceObjectAtIndex:index withObject:htmlWarning];
+    }
+  }
 
 	return isCanGetData;
 }
@@ -322,14 +219,11 @@
 	
 	NSString *detailWeatherPage;
 	NSScanner *scanner;
-	BOOL bScanned;
-	NSInteger scanLocation;
-	
+
 	if (weatherData)
 	{
 		detailWeatherPage = [[[NSString alloc] initWithData:weatherData encoding:NSUTF8StringEncoding] autorelease];
 		scanner = [NSScanner scannerWithString:detailWeatherPage];
-		bScanned = YES;
 	}
 	
 	return isCanGetData;
