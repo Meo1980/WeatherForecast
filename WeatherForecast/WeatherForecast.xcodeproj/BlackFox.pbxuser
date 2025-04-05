@@ -1,0 +1,792 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* WeatherForecastAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 640}}";
+			sepNavSelRange = "{683, 0}";
+			sepNavVisRange = "{0, 711}";
+		};
+	};
+	1D3623250D0F684500981E51 /* WeatherForecastAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1783}}";
+			sepNavSelRange = "{1870, 1193}";
+			sepNavVisRange = "{1838, 1859}";
+			sepNavWindowFrame = "{{60, 5}, {838, 768}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* DuBaoThoiTiet */ = {
+		activeExec = 0;
+		executables = (
+			F0463A0A11FED2ED0018D000 /* DuBaoThoiTiet */,
+		);
+	};
+	28216C960DB411BC00E5133A /* CurWeaViewController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CurWeaViewController.m;
+		path = /Users/BlackFox/Desktop/Project/WeatherForecast/WeatherForecast/Classes/CurWeaViewController.m;
+		sourceTree = "<absolute>";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Distribution;
+		activeExecutable = F0463A0A11FED2ED0018D000 /* DuBaoThoiTiet */;
+		activeSDKPreference = iphoneos4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* DuBaoThoiTiet */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* DuBaoThoiTiet */,
+		);
+		breakpoints = (
+			F037CBD1121A8BDB00F454AF /* CurWeaViewController.m:105 */,
+			F037CBD7121A8BF300F454AF /* CommonWeaViewController.m:112 */,
+			F037CBDA121A8BFD00F454AF /* WeatherView.m:124 */,
+			F049CC571226500F008B3F86 /* OptionViewController.m:105 */,
+		);
+		codeSenseManager = F0463A1A11FED2FA0018D000 /* Code sense */;
+		executables = (
+			F0463A0A11FED2ED0018D000 /* DuBaoThoiTiet */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					337,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					449,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					409,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 315135888;
+			PBXWorkspaceStateSaveDate = 315135888;
+		};
+		perUserProjectItems = {
+			F016E8FA12082804002731D1 = F016E8FA12082804002731D1 /* PBXBookmark */;
+			F02F62F11213E12A0059B178 = F02F62F11213E12A0059B178 /* PBXTextBookmark */;
+			F02F62F21213E12A0059B178 = F02F62F21213E12A0059B178 /* PBXTextBookmark */;
+			F0301D891223B12100C62714 = F0301D891223B12100C62714 /* PBXTextBookmark */;
+			F0308174121E2E9500FAF354 = F0308174121E2E9500FAF354 /* PBXTextBookmark */;
+			F0308179121E2E9500FAF354 = F0308179121E2E9500FAF354 /* PBXTextBookmark */;
+			F034F097121B91F0002B2E26 = F034F097121B91F0002B2E26 /* PBXTextBookmark */;
+			F034F116121BC274002B2E26 = F034F116121BC274002B2E26 /* PBXTextBookmark */;
+			F0355E96122767AD00413E44 = F0355E96122767AD00413E44 /* PBXTextBookmark */;
+			F0355E97122767AD00413E44 = F0355E97122767AD00413E44 /* PBXTextBookmark */;
+			F04360CB124306F800E22C17 = F04360CB124306F800E22C17 /* PBXTextBookmark */;
+			F045989712C8972F00BF991C = F045989712C8972F00BF991C /* PBXTextBookmark */;
+			F04974D812166B9200FCD734 = F04974D812166B9200FCD734 /* PBXBookmark */;
+			F049CC3012264EEF008B3F86 = F049CC3012264EEF008B3F86 /* PBXTextBookmark */;
+			F049CC3112264EEF008B3F86 = F049CC3112264EEF008B3F86 /* PBXTextBookmark */;
+			F049CC3312264EEF008B3F86 = F049CC3312264EEF008B3F86 /* PBXTextBookmark */;
+			F049CC911226571E008B3F86 = F049CC911226571E008B3F86 /* PBXTextBookmark */;
+			F049CD261226643F008B3F86 = F049CD261226643F008B3F86 /* PBXTextBookmark */;
+			F049CD45122665FF008B3F86 = F049CD45122665FF008B3F86 /* PBXTextBookmark */;
+			F049CD6A122677A8008B3F86 = F049CD6A122677A8008B3F86 /* PBXTextBookmark */;
+			F049CD6B122677A8008B3F86 = F049CD6B122677A8008B3F86 /* PBXTextBookmark */;
+			F049CD6C122677A8008B3F86 = F049CD6C122677A8008B3F86 /* PBXTextBookmark */;
+			F049CD7412268997008B3F86 = F049CD7412268997008B3F86 /* PBXTextBookmark */;
+			F058BDA9121558EC008568C1 = F058BDA9121558EC008568C1 /* PBXBookmark */;
+			F05F81161212AD9B0054199E = F05F81161212AD9B0054199E /* PBXTextBookmark */;
+			F067263D1240E7BA003A2796 = F067263D1240E7BA003A2796 /* PlistBookmark */;
+			F06FFC3612116A39004F8955 = F06FFC3612116A39004F8955 /* PBXTextBookmark */;
+			F08115781228AB7C003B8950 = F08115781228AB7C003B8950 /* PBXTextBookmark */;
+			F08115B81228D772003B8950 = F08115B81228D772003B8950 /* PlistBookmark */;
+			F0F58B311243487F006D011B = F0F58B311243487F006D011B /* PBXTextBookmark */;
+			F0F58B5D12435833006D011B = F0F58B5D12435833006D011B /* PBXTextBookmark */;
+		};
+		sourceControlManager = F0463A1911FED2FA0018D000 /* Source Control */;
+		userBookmarkGroup = F02F61F7121383670059B178 /* PBXBookmarkGroup */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1174, 286}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{0, 370}";
+		};
+	};
+	8D1107310486CEB800E47090 /* WeatherForecast-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{92, 21}, {756, 757}}";
+		};
+	};
+	F016E8FA12082804002731D1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F09F174B1202C5C9005D40B3 /* 110.gif */;
+	};
+	F02EC0DF1203BDDC0087E53A /* DetailWeaViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {706, 1367}}";
+			sepNavSelRange = "{1944, 13}";
+			sepNavVisRange = "{33, 1205}";
+			sepNavWindowFrame = "{{260, 20}, {765, 758}}";
+		};
+	};
+	F02EC0E01203BDDC0087E53A /* DetailWeaViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {747, 14601}}";
+			sepNavSelRange = "{9796, 0}";
+			sepNavVisRange = "{8800, 790}";
+			sepNavWindowFrame = "{{485, 20}, {765, 758}}";
+		};
+	};
+	F02EC0E51203BE430087E53A /* CommonDefine.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {627, 678}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{265, 432}";
+			sepNavWindowFrame = "{{62, 20}, {765, 758}}";
+		};
+	};
+	F02EC0E61203BEEA0087E53A /* CommonDefine.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 2103}}";
+			sepNavSelRange = "{2735, 0}";
+			sepNavVisRange = "{3129, 668}";
+			sepNavWindowFrame = "{{62, 20}, {765, 758}}";
+		};
+	};
+	F02F61F7121383670059B178 /* PBXBookmarkGroup */ = {
+		isa = PBXBookmarkGroup;
+		children = (
+			F02F63121213F9AE0059B178 /* PBXBookmark */,
+		);
+		name = Root;
+	};
+	F02F62F11213E12A0059B178 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F03913FB12028087007F044D /* NetReachability.h */;
+		name = "NetReachability.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 876;
+		vrLoc = 0;
+	};
+	F02F62F21213E12A0059B178 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F03913FC12028087007F044D /* NetReachability.m */;
+		name = "NetReachability.m: 81";
+		rLen = 32;
+		rLoc = 3731;
+		rType = 0;
+		vrLen = 474;
+		vrLoc = 5571;
+	};
+	F02F63121213F9AE0059B178 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F08B37A01209823100DC710B /* DangerousWeaViewController.xib */;
+	};
+	F0301D2D1223751C00C62714 /* SelectAreaViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 617}}";
+			sepNavSelRange = "{619, 0}";
+			sepNavVisRange = "{0, 704}";
+			sepNavWindowFrame = "{{153, 10}, {838, 768}}";
+		};
+	};
+	F0301D2E1223751C00C62714 /* SelectAreaViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1293, 5579}}";
+			sepNavSelRange = "{10359, 30}";
+			sepNavVisRange = "{8679, 1719}";
+			sepNavWindowFrame = "{{208, 10}, {838, 768}}";
+		};
+	};
+	F0301D891223B12100C62714 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F08B37891209734900DC710B /* SymbolTableViewController.m */;
+		name = "SymbolTableViewController.m: 234";
+		rLen = 0;
+		rLoc = 6150;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 4850;
+	};
+	F0308174121E2E9500FAF354 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F03A52221207BCD500F1214A /* WeatherView.h */;
+		name = "WeatherView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 226;
+		vrLoc = 0;
+	};
+	F0308179121E2E9500FAF354 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* WeatherForecastAppDelegate.h */;
+		name = "WeatherForecastAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 417;
+		vrLoc = 56;
+	};
+	F034F097121B91F0002B2E26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F03A52231207BCD500F1214A /* WeatherView.m */;
+		name = "WeatherView.m: 23";
+		rLen = 0;
+		rLoc = 442;
+		rType = 0;
+		vrLen = 322;
+		vrLoc = 205;
+	};
+	F034F116121BC274002B2E26 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F03A52121207ACEC00F1214A /* CommonWeaViewController.h */;
+		name = "CommonWeaViewController.h: 12";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 290;
+		vrLoc = 100;
+	};
+	F0355E96122767AD00413E44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28216C960DB411BC00E5133A /* CurWeaViewController.m */;
+		name = "CurWeaViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 481;
+		vrLoc = 2331;
+	};
+	F0355E97122767AD00413E44 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F049CD651226778A008B3F86 /* AboutUsViewController.m */;
+		name = "AboutUsViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 621;
+		vrLoc = 0;
+	};
+	F037CBD1121A8BDB00F454AF /* CurWeaViewController.m:105 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28216C960DB411BC00E5133A /* CurWeaViewController.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 105;
+		modificationTime = 304500863.941754;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	F037CBD7121A8BF300F454AF /* CommonWeaViewController.m:112 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F03A52131207ACEC00F1214A /* CommonWeaViewController.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 112;
+		location = "ThờiTiếtVN";
+		modificationTime = 304500863.942091;
+		originalNumberOfMultipleMatches = 1;
+		state = 0;
+	};
+	F037CBDA121A8BFD00F454AF /* WeatherView.m:124 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F03A52231207BCD500F1214A /* WeatherView.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 124;
+		location = "ThờiTiếtVN";
+		modificationTime = 304500863.941789;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	F03913FA12028087007F044D /* HTTPDownloader.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = HTTPDownloader.m;
+		path = /Users/BlackFox/Desktop/Project/WeatherForecast/WeatherForecast/Classes/HTTPDownloader.m;
+		sourceTree = "<absolute>";
+	};
+	F03913FB12028087007F044D /* NetReachability.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {627, 1404}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 876}";
+		};
+	};
+	F03913FC12028087007F044D /* NetReachability.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1489, 2483}}";
+			sepNavSelRange = "{5823, 29}";
+			sepNavVisRange = "{4961, 1391}";
+			sepNavWindowFrame = "{{60, 5}, {962, 768}}";
+		};
+	};
+	F03A52121207ACEC00F1214A /* CommonWeaViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {903, 617}}";
+			sepNavSelRange = "{848, 74}";
+			sepNavVisRange = "{0, 929}";
+			sepNavWindowFrame = "{{138, 10}, {962, 768}}";
+		};
+	};
+	F03A52131207ACEC00F1214A /* CommonWeaViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 6528}}";
+			sepNavSelRange = "{3197, 0}";
+			sepNavVisRange = "{2805, 504}";
+			sepNavWindowFrame = "{{148, 10}, {962, 768}}";
+		};
+	};
+	F03A52221207BCD500F1214A /* WeatherView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 627}}";
+			sepNavSelRange = "{347, 10}";
+			sepNavVisRange = "{0, 914}";
+			sepNavWindowFrame = "{{60, 0}, {771, 778}}";
+		};
+	};
+	F03A52231207BCD500F1214A /* WeatherView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 1822}}";
+			sepNavSelRange = "{1165, 0}";
+			sepNavVisRange = "{292, 1900}";
+			sepNavWindowFrame = "{{60, 0}, {771, 778}}";
+		};
+	};
+	F04360CB124306F800E22C17 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F02EC0E61203BEEA0087E53A /* CommonDefine.m */;
+		name = "CommonDefine.m: 152";
+		rLen = 0;
+		rLoc = 2735;
+		rType = 0;
+		vrLen = 668;
+		vrLoc = 3129;
+	};
+	F045989712C8972F00BF991C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F08B379F1209823100DC710B /* DangerousWeaViewController.m */;
+		name = "DangerousWeaViewController.m: 102";
+		rLen = 0;
+		rLoc = 2733;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 2592;
+	};
+	F0463A0A11FED2ED0018D000 /* DuBaoThoiTiet */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DuBaoThoiTiet;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F0463A1911FED2FA0018D000 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	F0463A1A11FED2FA0018D000 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F04974D812166B9200FCD734 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F04974861216461C00FCD734 /* symbol.png */;
+	};
+	F049CC1612262D78008B3F86 /* OptionViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {627, 278}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 255}";
+			sepNavWindowFrame = "{{60, 0}, {1094, 773}}";
+		};
+	};
+	F049CC1712262D78008B3F86 /* OptionViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 2864}}";
+			sepNavSelRange = "{3439, 0}";
+			sepNavVisRange = "{3076, 288}";
+			sepNavWindowFrame = "{{186, 5}, {1094, 773}}";
+		};
+	};
+	F049CC3012264EEF008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F08B379E1209823100DC710B /* DangerousWeaViewController.h */;
+		name = "DangerousWeaViewController.h: 12";
+		rLen = 0;
+		rLoc = 221;
+		rType = 0;
+		vrLen = 581;
+		vrLoc = 0;
+	};
+	F049CC3112264EEF008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0301D2D1223751C00C62714 /* SelectAreaViewController.h */;
+		name = "SelectAreaViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 426;
+		vrLoc = 0;
+	};
+	F049CC3312264EEF008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F049CC1612262D78008B3F86 /* OptionViewController.h */;
+		name = "OptionViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 255;
+		vrLoc = 0;
+	};
+	F049CC571226500F008B3F86 /* OptionViewController.m:105 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = F049CC1712262D78008B3F86 /* OptionViewController.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 105;
+		location = "ThờiTiếtVN";
+		modificationTime = 304500863.941809;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	F049CC911226571E008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* WeatherForecastAppDelegate.m */;
+		name = "WeatherForecastAppDelegate.m: 52";
+		rLen = 0;
+		rLoc = 1479;
+		rType = 0;
+		vrLen = 859;
+		vrLoc = 804;
+	};
+	F049CD261226643F008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F03A52131207ACEC00F1214A /* CommonWeaViewController.m */;
+		name = "CommonWeaViewController.m: 113";
+		rLen = 0;
+		rLoc = 3197;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 2805;
+	};
+	F049CD45122665FF008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F0301D2E1223751C00C62714 /* SelectAreaViewController.m */;
+		name = "SelectAreaViewController.m: 173";
+		rLen = 0;
+		rLoc = 4900;
+		rType = 0;
+		vrLen = 669;
+		vrLoc = 4402;
+	};
+	F049CD641226778A008B3F86 /* AboutUsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {697, 629}}";
+			sepNavSelRange = "{307, 0}";
+			sepNavVisRange = "{0, 336}";
+		};
+	};
+	F049CD651226778A008B3F86 /* AboutUsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 834}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 621}";
+			sepNavWindowFrame = "{{60, 16}, {756, 757}}";
+		};
+	};
+	F049CD6A122677A8008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F02EC0DF1203BDDC0087E53A /* DetailWeaViewController.h */;
+		name = "DetailWeaViewController.h: 13";
+		rLen = 0;
+		rLoc = 291;
+		rType = 0;
+		vrLen = 820;
+		vrLoc = 1268;
+	};
+	F049CD6B122677A8008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F02EC0E01203BDDC0087E53A /* DetailWeaViewController.m */;
+		name = "DetailWeaViewController.m: 369";
+		rLen = 0;
+		rLoc = 9796;
+		rType = 0;
+		vrLen = 790;
+		vrLoc = 8800;
+	};
+	F049CD6C122677A8008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F049CD641226778A008B3F86 /* AboutUsViewController.h */;
+		name = "AboutUsViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 251;
+		vrLoc = 0;
+	};
+	F049CD7412268997008B3F86 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F081A0571222297E00E8BCBE /* TouchButton.h */;
+		name = "TouchButton.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 353;
+		vrLoc = 0;
+	};
+	F058BDA9121558EC008568C1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = F058BD9D1215563D008568C1 /* nangmua.gif */;
+	};
+	F05F81161212AD9B0054199E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F03913FA12028087007F044D /* HTTPDownloader.m */;
+		name = "HTTPDownloader.m: 1";
+		rLen = 1;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 623;
+		vrLoc = 174;
+	};
+	F067263D1240E7BA003A2796 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = F03913EF12027EE8007F044D /* DBTT.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			"T.P Hồ Chí Minh",
+		);
+		name = /Users/BlackFox/Desktop/Project/WeatherForecast/WeatherForecast/DBTT.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F06FFC3612116A39004F8955 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F08B37881209734900DC710B /* SymbolTableViewController.h */;
+		name = "SymbolTableViewController.h: 9";
+		rLen = 0;
+		rLoc = 178;
+		rType = 0;
+		vrLen = 263;
+		vrLoc = 0;
+	};
+	F08115781228AB7C003B8950 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F049CC1712262D78008B3F86 /* OptionViewController.m */;
+		name = "OptionViewController.m: 127";
+		rLen = 0;
+		rLoc = 3439;
+		rType = 0;
+		vrLen = 287;
+		vrLoc = 3089;
+	};
+	F08115B81228D772003B8950 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* WeatherForecast-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = "/Users/BlackFox/Desktop/Project/WeatherForecast/WeatherForecast/WeatherForecast-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	F081A0571222297E00E8BCBE /* TouchButton.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {627, 288}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 353}";
+			sepNavWindowFrame = "{{452, 10}, {838, 768}}";
+		};
+	};
+	F081A0581222297E00E8BCBE /* TouchButton.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {779, 743}}";
+			sepNavSelRange = "{973, 0}";
+			sepNavVisRange = "{151, 1022}";
+			sepNavWindowFrame = "{{60, 5}, {838, 768}}";
+		};
+	};
+	F08B37881209734900DC710B /* SymbolTableViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {903, 617}}";
+			sepNavSelRange = "{263, 0}";
+			sepNavVisRange = "{0, 263}";
+			sepNavWindowFrame = "{{318, 10}, {962, 768}}";
+		};
+	};
+	F08B37891209734900DC710B /* SymbolTableViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1237, 3474}}";
+			sepNavSelRange = "{2300, 78}";
+			sepNavVisRange = "{4121, 1419}";
+			sepNavWindowFrame = "{{318, 10}, {962, 768}}";
+		};
+	};
+	F08B379E1209823100DC710B /* DangerousWeaViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {697, 652}}";
+			sepNavSelRange = "{221, 0}";
+			sepNavVisRange = "{0, 1360}";
+			sepNavWindowFrame = "{{292, 0}, {771, 778}}";
+		};
+	};
+	F08B379F1209823100DC710B /* DangerousWeaViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1433, 5577}}";
+			sepNavSelRange = "{2733, 0}";
+			sepNavVisRange = "{2638, 378}";
+			sepNavWindowFrame = "{{395, 15}, {756, 757}}";
+		};
+	};
+	F0F58B311243487F006D011B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F02EC0E51203BE430087E53A /* CommonDefine.h */;
+		name = "CommonDefine.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 432;
+		vrLoc = 265;
+	};
+	F0F58B5D12435833006D011B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F08B379F1209823100DC710B /* DangerousWeaViewController.m */;
+		name = "DangerousWeaViewController.m: 102";
+		rLen = 0;
+		rLoc = 2733;
+		rType = 0;
+		vrLen = 424;
+		vrLoc = 2592;
+	};
+}

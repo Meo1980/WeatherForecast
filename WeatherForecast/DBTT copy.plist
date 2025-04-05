@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NguyHiem-BaoATND</key>
+	<string>70/23</string>
+	<key>NguyHiem-KKL</key>
+	<string>70/25</string>
+	<key>NguyHiem-NN</key>
+	<string>70/24</string>
+	<key>NguyHiem-KH</key>
+	<string>70/55</string>
+	<key>DatLien</key>
+	<string>79/12</string>
+	<key>Bien</key>
+	<string>80/13</string>
+	<key>An Giang</key>
+	<string>62/23/96/map</string>
+	<key>Binh Duong</key>
+	<string>62/23/45/map</string>
+	<key>Ben Tre</key>
+	<string>62/23/53/map</string>
+	<key>Bac Lieu</key>
+	<string>62/23/59/map</string>
+	<key>Binh Phuoc</key>
+	<string>62/23/60/map</string>
+	<key>Ca Mau</key>
+	<string>62/23/74/map</string>
+	<key>Can Tho</key>
+	<string>62/23/56/map</string>
+	<key>Dong Thap</key>
+	<string>62/23/51/map</string>
+	<key>Dong Nai</key>
+	<string>62/23/62/map</string>
+	<key>Hau Giang</key>
+	<string>62/23/54/map</string>
+	<key>Kien Giang</key>
+	<string>62/23/73/map</string>
+	<key>Long An</key>
+	<string>62/23/50/map</string>
+	<key>Soc Trang</key>
+	<string>62/23/57/map</string>
+	<key>Tien Giang</key>
+	<string>62/23/52/map</string>
+	<key>T.P Ho Chi Minh</key>
+	<string>62/23/44/map</string>
+	<key>Tay Ninh</key>
+	<string>62/23/66/map</string>
+	<key>Vung Tau</key>
+	<string>62/23/61/map</string>
+	<key>Vinh Long</key>
+	<string>62/23/95/map</string>
+	<key>Hoa Binh</key>
+	<string>62/18/4/map</string>
+	<key>Dien Bien</key>
+	<string>62/18/70/map</string>
+	<key>Lao Cai</key>
+	<string>62/18/69/map</string>
+	<key>Lai Chau</key>
+	<string>62/18/127/map</string>
+	<key>Son La</key>
+	<string>62/18/78/map</string>
+	<key>Yen Bai</key>
+	<string>62/18/87/map</string>
+	<key>Bac Giang</key>
+	<string>62/19/80/map</string>
+	<key>Bac Ninh</key>
+	<string>62/19/81/map</string>
+	<key>Bac Can</key>
+	<string>62/19/86/map</string>
+	<key>Cao Bang</key>
+	<string>62/19/83/map</string>
+	<key>Hai Phong</key>
+	<string>62/19/88/map</string>
+	<key>Hung Yen</key>
+	<string>62/19/63/map</string>
+	<key>Hai Duong</key>
+	<string>62/19/48/map</string>
+	<key>Ha Tay</key>
+	<string>62/19/65/map</string>
+	<key>Ha Giang</key>
+	<string>62/19/68/map</string>
+	<key>Lang Son</key>
+	<string>62/19/82/map</string>
+	<key>Nam Dinh</key>
+	<string>62/19/64/map</string>
+	<key>Ninh Binh</key>
+	<string>62/19/46/map</string>
+	<key>Phu Ly</key>
+	<string>62/19/49/map</string>
+	<key>Quang Ninh</key>
+	<string>62/19/120/map</string>
+	<key>Tuyen Quang</key>
+	<string>62/19/84/map</string>
+	<key>Thai Nguyen</key>
+	<string>62/19/85/map</string>
+	<key>T.P Ha Noi</key>
+	<string>62/19/58/map</string>
+	<key>Thai Binh</key>
+	<string>62/19/47/map</string>
+	<key>Viet Tri</key>
+	<string>62/19/76/map</string>
+	<key>Vinh Phuc</key>
+	<string>62/19/77/map</string>
+	<key>Ha Tinh</key>
+	<string>62/20/28/map</string>
+	<key>Quang Binh</key>
+	<string>62/20/29/map</string>
+	<key>Quang Tri</key>
+	<string>62/20/30/map</string>
+	<key>Thua Thien Hue</key>
+	<string>62/20/31/map</string>
+	<key>Thanh Hoa</key>
+	<string>62/20/106/map</string>
+	<key>Vinh</key>
+	<string>62/20/111/map</string>
+	<key>Binh Dinh</key>
+	<string>62/21/94/map</string>
+	<key>Binh Thuan</key>
+	<string>62/21/39/map</string>
+	<key>Da Nang</key>
+	<string>62/21/92/map</string>
+	<key>Nha Trang</key>
+	<string>62/21/37/map</string>
+	<key>Ninh Thuan</key>
+	<string>62/21/100/map</string>
+	<key>Phu Yen</key>
+	<string>62/21/99/map</string>
+	<key>Quang Nam</key>
+	<string>62/21/119/map</string>
+	<key>Quang Ngai</key>
+	<string>62/21/34/map</string>
+	<key>Da Lat</key>
+	<string>62/22/43/map</string>
+	<key>Dak Lak</key>
+	<string>62/22/42/map</string>
+	<key>Dak Nong</key>
+	<string>62/22/71/map</string>
+	<key>Kon Tum</key>
+	<string>62/22/40/map</string>
+	<key>Pleiku</key>
+	<string>62/22/41/map</string>
+</dict>
+</plist>

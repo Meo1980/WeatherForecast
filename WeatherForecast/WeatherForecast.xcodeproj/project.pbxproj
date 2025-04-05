@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* WeatherForecastAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* WeatherForecastAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+		F02EC0E21203BDDC0087E53A /* DetailWeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F02EC0E01203BDDC0087E53A /* DetailWeaViewController.m */; };
+		F02EC0E31203BDDC0087E53A /* DetailWeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F02EC0E11203BDDC0087E53A /* DetailWeaViewController.xib */; };
+		F02EC0E71203BEEA0087E53A /* CommonDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = F02EC0E61203BEEA0087E53A /* CommonDefine.m */; };
+		F0301D301223751C00C62714 /* SelectAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0301D2E1223751C00C62714 /* SelectAreaViewController.m */; };
+		F0301D311223751C00C62714 /* SelectAreaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F0301D2F1223751C00C62714 /* SelectAreaViewController.xib */; };
+		F03913F012027EE8007F044D /* DBTT.plist in Resources */ = {isa = PBXBuildFile; fileRef = F03913EF12027EE8007F044D /* DBTT.plist */; };
+		F039140312028087007F044D /* NetReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = F03913FC12028087007F044D /* NetReachability.m */; };
+		F03A52151207ACEC00F1214A /* CommonWeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F03A52131207ACEC00F1214A /* CommonWeaViewController.m */; };
+		F03A52161207ACEC00F1214A /* CommonWeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F03A52141207ACEC00F1214A /* CommonWeaViewController.xib */; };
+		F03A52241207BCD500F1214A /* WeatherView.m in Sources */ = {isa = PBXBuildFile; fileRef = F03A52231207BCD500F1214A /* WeatherView.m */; };
+		F049747F12163FA300FCD734 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = F049747B12163FA300FCD734 /* star.png */; };
+		F049748012163FA300FCD734 /* vnland.png in Resources */ = {isa = PBXBuildFile; fileRef = F049747C12163FA300FCD734 /* vnland.png */; };
+		F049748112163FA300FCD734 /* vnsea.png in Resources */ = {isa = PBXBuildFile; fileRef = F049747D12163FA300FCD734 /* vnsea.png */; };
+		F049748212163FA300FCD734 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = F049747E12163FA300FCD734 /* warning.png */; };
+		F04974871216461C00FCD734 /* symbol.png in Resources */ = {isa = PBXBuildFile; fileRef = F04974861216461C00FCD734 /* symbol.png */; };
+		F04974A21216548700FCD734 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F04974A11216548700FCD734 /* Icon.png */; };
+		F049CC1912262D78008B3F86 /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F049CC1712262D78008B3F86 /* OptionViewController.m */; };
+		F049CC1A12262D78008B3F86 /* OptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F049CC1812262D78008B3F86 /* OptionViewController.xib */; };
+		F049CD671226778A008B3F86 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F049CD651226778A008B3F86 /* AboutUsViewController.m */; };
+		F049CD681226778A008B3F86 /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F049CD661226778A008B3F86 /* AboutUsViewController.xib */; };
+		F049CD721226840C008B3F86 /* Rain.png in Resources */ = {isa = PBXBuildFile; fileRef = F049CD701226840C008B3F86 /* Rain.png */; };
+		F049CD731226840C008B3F86 /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = F049CD711226840C008B3F86 /* Sun.png */; };
+		F04F3BF41206C53400378D46 /* seperator.png in Resources */ = {isa = PBXBuildFile; fileRef = F04F3BF31206C53400378D46 /* seperator.png */; };
+		F04F3BF61206D9E300378D46 /* seperatorH.png in Resources */ = {isa = PBXBuildFile; fileRef = F04F3BF51206D9E300378D46 /* seperatorH.png */; };
+		F058BD9E1215563D008568C1 /* nangmua.gif in Resources */ = {isa = PBXBuildFile; fileRef = F058BD9D1215563D008568C1 /* nangmua.gif */; };
+		F081A0591222297E00E8BCBE /* TouchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F081A0581222297E00E8BCBE /* TouchButton.m */; };
+		F08B378B1209734900DC710B /* SymbolTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B37891209734900DC710B /* SymbolTableViewController.m */; };
+		F08B378C1209734900DC710B /* SymbolTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08B378A1209734900DC710B /* SymbolTableViewController.xib */; };
+		F08B37A11209823100DC710B /* DangerousWeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08B379F1209823100DC710B /* DangerousWeaViewController.m */; };
+		F08B37A21209823100DC710B /* DangerousWeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08B37A01209823100DC710B /* DangerousWeaViewController.xib */; };
+		F09F17591202C5C9005D40B3 /* 110.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F174B1202C5C9005D40B3 /* 110.gif */; };
+		F09F175A1202C5C9005D40B3 /* 260.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F174C1202C5C9005D40B3 /* 260.gif */; };
+		F09F175B1202C5C9005D40B3 /* 270.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F174D1202C5C9005D40B3 /* 270.gif */; };
+		F09F175C1202C5C9005D40B3 /* 300.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F174E1202C5C9005D40B3 /* 300.gif */; };
+		F09F175D1202C5C9005D40B3 /* 310.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F174F1202C5C9005D40B3 /* 310.gif */; };
+		F09F175E1202C5C9005D40B3 /* 315.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F17501202C5C9005D40B3 /* 315.gif */; };
+		F09F175F1202C5C9005D40B3 /* 320.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F17511202C5C9005D40B3 /* 320.gif */; };
+		F09F17601202C5C9005D40B3 /* 330.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F17521202C5C9005D40B3 /* 330.gif */; };
+		F09F17611202C5C9005D40B3 /* 340.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F17531202C5C9005D40B3 /* 340.gif */; };
+		F09F17621202C5C9005D40B3 /* 390.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F17541202C5C9005D40B3 /* 390.gif */; };
+		F09F17631202C5C9005D40B3 /* 40.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F17551202C5C9005D40B3 /* 40.gif */; };
+		F09F17641202C5C9005D40B3 /* 450.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F17561202C5C9005D40B3 /* 450.gif */; };
+		F09F17651202C5C9005D40B3 /* 6_lge.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F17571202C5C9005D40B3 /* 6_lge.gif */; };
+		F09F17661202C5C9005D40B3 /* 90.gif in Resources */ = {isa = PBXBuildFile; fileRef = F09F17581202C5C9005D40B3 /* 90.gif */; };
+		F09F17FF1202F5FD005D40B3 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09F17FE1202F5FD005D40B3 /* CFNetwork.framework */; };
+		F09F18061202F636005D40B3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09F18051202F636005D40B3 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* WeatherForecastAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherForecastAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* WeatherForecastAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherForecastAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* ThoiTietVN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThoiTietVN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* WeatherForecast_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherForecast_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* WeatherForecast-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "WeatherForecast-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F02EC0DF1203BDDC0087E53A /* DetailWeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailWeaViewController.h; sourceTree = "<group>"; };
+		F02EC0E01203BDDC0087E53A /* DetailWeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailWeaViewController.m; sourceTree = "<group>"; };
+		F02EC0E11203BDDC0087E53A /* DetailWeaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DetailWeaViewController.xib; path = Classes/DetailWeaViewController.xib; sourceTree = "<group>"; };
+		F02EC0E51203BE430087E53A /* CommonDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDefine.h; sourceTree = "<group>"; };
+		F02EC0E61203BEEA0087E53A /* CommonDefine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonDefine.m; sourceTree = "<group>"; };
+		F0301D2D1223751C00C62714 /* SelectAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAreaViewController.h; sourceTree = "<group>"; };
+		F0301D2E1223751C00C62714 /* SelectAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectAreaViewController.m; sourceTree = "<group>"; };
+		F0301D2F1223751C00C62714 /* SelectAreaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SelectAreaViewController.xib; path = Classes/SelectAreaViewController.xib; sourceTree = "<group>"; };
+		F03913EF12027EE8007F044D /* DBTT.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DBTT.plist; sourceTree = "<group>"; };
+		F03913FB12028087007F044D /* NetReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetReachability.h; sourceTree = "<group>"; };
+		F03913FC12028087007F044D /* NetReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetReachability.m; sourceTree = "<group>"; };
+		F03A52121207ACEC00F1214A /* CommonWeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonWeaViewController.h; sourceTree = "<group>"; };
+		F03A52131207ACEC00F1214A /* CommonWeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonWeaViewController.m; sourceTree = "<group>"; };
+		F03A52141207ACEC00F1214A /* CommonWeaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = CommonWeaViewController.xib; path = Classes/CommonWeaViewController.xib; sourceTree = "<group>"; };
+		F03A52221207BCD500F1214A /* WeatherView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherView.h; sourceTree = "<group>"; };
+		F03A52231207BCD500F1214A /* WeatherView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherView.m; sourceTree = "<group>"; };
+		F049747B12163FA300FCD734 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		F049747C12163FA300FCD734 /* vnland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vnland.png; sourceTree = "<group>"; };
+		F049747D12163FA300FCD734 /* vnsea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vnsea.png; sourceTree = "<group>"; };
+		F049747E12163FA300FCD734 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		F04974861216461C00FCD734 /* symbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = symbol.png; sourceTree = "<group>"; };
+		F04974A11216548700FCD734 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F049CC1612262D78008B3F86 /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
+		F049CC1712262D78008B3F86 /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
+		F049CC1812262D78008B3F86 /* OptionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = OptionViewController.xib; path = Classes/OptionViewController.xib; sourceTree = "<group>"; };
+		F049CD641226778A008B3F86 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		F049CD651226778A008B3F86 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		F049CD661226778A008B3F86 /* AboutUsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutUsViewController.xib; path = Classes/AboutUsViewController.xib; sourceTree = "<group>"; };
+		F049CD701226840C008B3F86 /* Rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rain.png; sourceTree = "<group>"; };
+		F049CD711226840C008B3F86 /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		F04F3BF31206C53400378D46 /* seperator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seperator.png; sourceTree = "<group>"; };
+		F04F3BF51206D9E300378D46 /* seperatorH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seperatorH.png; sourceTree = "<group>"; };
+		F058BD9D1215563D008568C1 /* nangmua.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nangmua.gif; sourceTree = "<group>"; };
+		F081A0571222297E00E8BCBE /* TouchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchButton.h; sourceTree = "<group>"; };
+		F081A0581222297E00E8BCBE /* TouchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchButton.m; sourceTree = "<group>"; };
+		F08B37881209734900DC710B /* SymbolTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymbolTableViewController.h; sourceTree = "<group>"; };
+		F08B37891209734900DC710B /* SymbolTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymbolTableViewController.m; sourceTree = "<group>"; };
+		F08B378A1209734900DC710B /* SymbolTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SymbolTableViewController.xib; path = Classes/SymbolTableViewController.xib; sourceTree = "<group>"; };
+		F08B379E1209823100DC710B /* DangerousWeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DangerousWeaViewController.h; sourceTree = "<group>"; };
+		F08B379F1209823100DC710B /* DangerousWeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DangerousWeaViewController.m; sourceTree = "<group>"; };
+		F08B37A01209823100DC710B /* DangerousWeaViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DangerousWeaViewController.xib; path = Classes/DangerousWeaViewController.xib; sourceTree = "<group>"; };
+		F09F174B1202C5C9005D40B3 /* 110.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 110.gif; sourceTree = "<group>"; };
+		F09F174C1202C5C9005D40B3 /* 260.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 260.gif; sourceTree = "<group>"; };
+		F09F174D1202C5C9005D40B3 /* 270.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 270.gif; sourceTree = "<group>"; };
+		F09F174E1202C5C9005D40B3 /* 300.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 300.gif; sourceTree = "<group>"; };
+		F09F174F1202C5C9005D40B3 /* 310.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 310.gif; sourceTree = "<group>"; };
+		F09F17501202C5C9005D40B3 /* 315.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 315.gif; sourceTree = "<group>"; };
+		F09F17511202C5C9005D40B3 /* 320.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 320.gif; sourceTree = "<group>"; };
+		F09F17521202C5C9005D40B3 /* 330.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 330.gif; sourceTree = "<group>"; };
+		F09F17531202C5C9005D40B3 /* 340.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 340.gif; sourceTree = "<group>"; };
+		F09F17541202C5C9005D40B3 /* 390.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 390.gif; sourceTree = "<group>"; };
+		F09F17551202C5C9005D40B3 /* 40.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 40.gif; sourceTree = "<group>"; };
+		F09F17561202C5C9005D40B3 /* 450.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 450.gif; sourceTree = "<group>"; };
+		F09F17571202C5C9005D40B3 /* 6_lge.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6_lge.gif; sourceTree = "<group>"; };
+		F09F17581202C5C9005D40B3 /* 90.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 90.gif; sourceTree = "<group>"; };
+		F09F17FE1202F5FD005D40B3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F09F18051202F636005D40B3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+				F09F17FF1202F5FD005D40B3 /* CFNetwork.framework in Frameworks */,
+				F09F18061202F636005D40B3 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F02EC0DD1203BA010087E53A /* Network */,
+				1D3623240D0F684500981E51 /* WeatherForecastAppDelegate.h */,
+				1D3623250D0F684500981E51 /* WeatherForecastAppDelegate.m */,
+				F02EC0DF1203BDDC0087E53A /* DetailWeaViewController.h */,
+				F02EC0E01203BDDC0087E53A /* DetailWeaViewController.m */,
+				F02EC0E51203BE430087E53A /* CommonDefine.h */,
+				F02EC0E61203BEEA0087E53A /* CommonDefine.m */,
+				F03A52121207ACEC00F1214A /* CommonWeaViewController.h */,
+				F03A52131207ACEC00F1214A /* CommonWeaViewController.m */,
+				F03A52221207BCD500F1214A /* WeatherView.h */,
+				F03A52231207BCD500F1214A /* WeatherView.m */,
+				F08B37881209734900DC710B /* SymbolTableViewController.h */,
+				F08B37891209734900DC710B /* SymbolTableViewController.m */,
+				F08B379E1209823100DC710B /* DangerousWeaViewController.h */,
+				F08B379F1209823100DC710B /* DangerousWeaViewController.m */,
+				F081A0571222297E00E8BCBE /* TouchButton.h */,
+				F081A0581222297E00E8BCBE /* TouchButton.m */,
+				F0301D2D1223751C00C62714 /* SelectAreaViewController.h */,
+				F0301D2E1223751C00C62714 /* SelectAreaViewController.m */,
+				F049CC1612262D78008B3F86 /* OptionViewController.h */,
+				F049CC1712262D78008B3F86 /* OptionViewController.m */,
+				F049CD641226778A008B3F86 /* AboutUsViewController.h */,
+				F049CD651226778A008B3F86 /* AboutUsViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* ThoiTietVN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* WeatherForecast */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = WeatherForecast;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* WeatherForecast_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F09F174A1202C5C9005D40B3 /* Image */,
+				F02EC0E11203BDDC0087E53A /* DetailWeaViewController.xib */,
+				F0301D2F1223751C00C62714 /* SelectAreaViewController.xib */,
+				F049CC1812262D78008B3F86 /* OptionViewController.xib */,
+				F049CD661226778A008B3F86 /* AboutUsViewController.xib */,
+				F03A52141207ACEC00F1214A /* CommonWeaViewController.xib */,
+				F08B378A1209734900DC710B /* SymbolTableViewController.xib */,
+				F08B37A01209823100DC710B /* DangerousWeaViewController.xib */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				F03913EF12027EE8007F044D /* DBTT.plist */,
+				8D1107310486CEB800E47090 /* WeatherForecast-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+				F09F17FE1202F5FD005D40B3 /* CFNetwork.framework */,
+				F09F18051202F636005D40B3 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F02EC0DD1203BA010087E53A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F03913FB12028087007F044D /* NetReachability.h */,
+				F03913FC12028087007F044D /* NetReachability.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		F09F174A1202C5C9005D40B3 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F049CD701226840C008B3F86 /* Rain.png */,
+				F049CD711226840C008B3F86 /* Sun.png */,
+				F04974A11216548700FCD734 /* Icon.png */,
+				F04974861216461C00FCD734 /* symbol.png */,
+				F049747B12163FA300FCD734 /* star.png */,
+				F049747C12163FA300FCD734 /* vnland.png */,
+				F049747D12163FA300FCD734 /* vnsea.png */,
+				F049747E12163FA300FCD734 /* warning.png */,
+				F058BD9D1215563D008568C1 /* nangmua.gif */,
+				F04F3BF51206D9E300378D46 /* seperatorH.png */,
+				F04F3BF31206C53400378D46 /* seperator.png */,
+				F09F174B1202C5C9005D40B3 /* 110.gif */,
+				F09F174C1202C5C9005D40B3 /* 260.gif */,
+				F09F174D1202C5C9005D40B3 /* 270.gif */,
+				F09F174E1202C5C9005D40B3 /* 300.gif */,
+				F09F174F1202C5C9005D40B3 /* 310.gif */,
+				F09F17501202C5C9005D40B3 /* 315.gif */,
+				F09F17511202C5C9005D40B3 /* 320.gif */,
+				F09F17521202C5C9005D40B3 /* 330.gif */,
+				F09F17531202C5C9005D40B3 /* 340.gif */,
+				F09F17541202C5C9005D40B3 /* 390.gif */,
+				F09F17551202C5C9005D40B3 /* 40.gif */,
+				F09F17561202C5C9005D40B3 /* 450.gif */,
+				F09F17571202C5C9005D40B3 /* 6_lge.gif */,
+				F09F17581202C5C9005D40B3 /* 90.gif */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DuBaoThoiTiet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DuBaoThoiTiet" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DuBaoThoiTiet;
+			productName = WeatherForecast;
+			productReference = 1D6058910D05DD3D006BFB54 /* ThoiTietVN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WeatherForecast" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				Base,
+				ja,
+				en,
+				de,
+				fr,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* WeatherForecast */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DuBaoThoiTiet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				F03913F012027EE8007F044D /* DBTT.plist in Resources */,
+				F09F17591202C5C9005D40B3 /* 110.gif in Resources */,
+				F09F175A1202C5C9005D40B3 /* 260.gif in Resources */,
+				F09F175B1202C5C9005D40B3 /* 270.gif in Resources */,
+				F09F175C1202C5C9005D40B3 /* 300.gif in Resources */,
+				F09F175D1202C5C9005D40B3 /* 310.gif in Resources */,
+				F09F175E1202C5C9005D40B3 /* 315.gif in Resources */,
+				F09F175F1202C5C9005D40B3 /* 320.gif in Resources */,
+				F09F17601202C5C9005D40B3 /* 330.gif in Resources */,
+				F09F17611202C5C9005D40B3 /* 340.gif in Resources */,
+				F09F17621202C5C9005D40B3 /* 390.gif in Resources */,
+				F09F17631202C5C9005D40B3 /* 40.gif in Resources */,
+				F09F17641202C5C9005D40B3 /* 450.gif in Resources */,
+				F09F17651202C5C9005D40B3 /* 6_lge.gif in Resources */,
+				F09F17661202C5C9005D40B3 /* 90.gif in Resources */,
+				F02EC0E31203BDDC0087E53A /* DetailWeaViewController.xib in Resources */,
+				F04F3BF41206C53400378D46 /* seperator.png in Resources */,
+				F04F3BF61206D9E300378D46 /* seperatorH.png in Resources */,
+				F03A52161207ACEC00F1214A /* CommonWeaViewController.xib in Resources */,
+				F08B378C1209734900DC710B /* SymbolTableViewController.xib in Resources */,
+				F08B37A21209823100DC710B /* DangerousWeaViewController.xib in Resources */,
+				F058BD9E1215563D008568C1 /* nangmua.gif in Resources */,
+				F049747F12163FA300FCD734 /* star.png in Resources */,
+				F049748012163FA300FCD734 /* vnland.png in Resources */,
+				F049748112163FA300FCD734 /* vnsea.png in Resources */,
+				F049748212163FA300FCD734 /* warning.png in Resources */,
+				F04974871216461C00FCD734 /* symbol.png in Resources */,
+				F04974A21216548700FCD734 /* Icon.png in Resources */,
+				F0301D311223751C00C62714 /* SelectAreaViewController.xib in Resources */,
+				F049CC1A12262D78008B3F86 /* OptionViewController.xib in Resources */,
+				F049CD681226778A008B3F86 /* AboutUsViewController.xib in Resources */,
+				F049CD721226840C008B3F86 /* Rain.png in Resources */,
+				F049CD731226840C008B3F86 /* Sun.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* WeatherForecastAppDelegate.m in Sources */,
+				F039140312028087007F044D /* NetReachability.m in Sources */,
+				F02EC0E21203BDDC0087E53A /* DetailWeaViewController.m in Sources */,
+				F02EC0E71203BEEA0087E53A /* CommonDefine.m in Sources */,
+				F03A52151207ACEC00F1214A /* CommonWeaViewController.m in Sources */,
+				F03A52241207BCD500F1214A /* WeatherView.m in Sources */,
+				F08B378B1209734900DC710B /* SymbolTableViewController.m in Sources */,
+				F08B37A11209823100DC710B /* DangerousWeaViewController.m in Sources */,
+				F081A0591222297E00E8BCBE /* TouchButton.m in Sources */,
+				F0301D301223751C00C62714 /* SelectAreaViewController.m in Sources */,
+				F049CC1912262D78008B3F86 /* OptionViewController.m in Sources */,
+				F049CD671226778A008B3F86 /* AboutUsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WeatherForecast_Prefix.pch;
+				INFOPLIST_FILE = "WeatherForecast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugunsoft.dubaothoitiet;
+				PRODUCT_NAME = ThoiTietVN;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WeatherForecast_Prefix.pch;
+				INFOPLIST_FILE = "WeatherForecast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugunsoft.dubaothoitiet;
+				PRODUCT_NAME = ThoiTietVN;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		F0355EDF1227D03800413E44 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		F0355EE01227D03800413E44 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = WeatherForecast_Prefix.pch;
+				INFOPLIST_FILE = "WeatherForecast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bugunsoft.dubaothoitiet;
+				PRODUCT_NAME = ThoiTietVN;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DuBaoThoiTiet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				F0355EE01227D03800413E44 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "WeatherForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				F0355EDF1227D03800413E44 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
