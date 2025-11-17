@@ -1,5 +1,5 @@
 //
-//  AboutUsViewController.h
+//  OptionViewController.h
 //  WeatherForecast
 //
 //  Created by Trần Thị Yến Linh on 8/26/10.
@@ -9,11 +9,10 @@
 #import <UIKit/UIKit.h>
 
 
-@interface AboutUsViewController : UIViewController 
-{
-	UILabel*   lbVersion;
-}
+@interface OptionViewController : UIViewController {}
 
+@property (nonatomic, retain) IBOutlet UILabel*   lbAppName;
 @property (nonatomic, retain) IBOutlet UILabel*   lbVersion;
+@property (nonatomic, retain) IBOutlet UITableView*   tableOption;
 
 @end

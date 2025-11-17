@@ -7,34 +7,18 @@
 //
 
 #import "WeatherForecastAppDelegate.h"
-#import "CommonWeaViewController.h"
+#import "OptionViewController.h"
 
 
 @implementation WeatherForecastAppDelegate
 
-@class CommonWeaViewController;
-
 @synthesize window;
-@synthesize tabBarController;
-//@synthesize firstNavigationController;
 @synthesize isUsingGPRS;
-
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
-  // Override point for customization after application launch.
-  if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-    // load the content controller object for Phone-based devices
-    [[NSBundle mainBundle] loadNibNamed:@"DetailWeaViewController" owner:self options:nil];
-  }
-  //	else
-  //	{
-  //		// load the content controller object for Pad-based devices
-  //        [[NSBundle mainBundle] loadNibNamed:@"NameViewController" owner:self options:nil];
-  //	}
 
   if ([[NSUserDefaults standardUserDefaults] objectForKey:@"UsingGPRS"]) {
     isUsingGPRS = [[NSUserDefaults standardUserDefaults] boolForKey:@"UsingGPRS"];
@@ -43,16 +27,8 @@
     isUsingGPRS = NO;
   }
 
-  NSArray* viewControllers = tabBarController.viewControllers;
-  UIViewController* viewController = [viewControllers objectAtIndex:1];
-  if ([viewController classForCoder] == [CommonWeaViewController class])
-    ((CommonWeaViewController*)viewController).isLand = YES;
-  viewController = [viewControllers objectAtIndex:2];
-  if ([viewController classForCoder] == [CommonWeaViewController class])
-    ((CommonWeaViewController*)viewController).isLand = NO;
-
   // Add the tab bar controller's view to the window and display.
-  [window addSubview:tabBarController.view];
+  [window setRootViewController:[[OptionViewController alloc] initWithNibName:@"OptionViewController" bundle:nil]];
   [window makeKeyAndVisible];
 
   return YES;
@@ -95,9 +71,6 @@
    Called when the application is about to terminate.
    See also applicationDidEnterBackground:.
    */
-  [[NSUserDefaults standardUserDefaults] setBool:isUsingGPRS forKey:@"UsingGPRS"];
-  NSLog(@"gprs save");
-
 }
 
 #pragma mark -
@@ -113,8 +86,6 @@
 
 - (void)dealloc
 {
-  //	[firstNavigationController release];
-  [tabBarController release];
   [window release];
   [super dealloc];
 }

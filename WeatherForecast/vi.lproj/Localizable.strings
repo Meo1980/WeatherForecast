@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  WeatherForecast
+
+  Created by Tran Thi Yen Linh on 9/4/25.
+  
+*/
+
+"AppName" = "Dự Báo Thời Tiết";
+"Version" = "Phiên bản %@";
+
+"UseCellular" = "Cho Phép Sử Dụng Dữ Liệu Di Động";
+"SymbolExplain" = "Ký Hiệu Thời Tiết";

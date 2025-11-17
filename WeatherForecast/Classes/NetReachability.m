@@ -80,8 +80,10 @@ Copyright (C) 2008 Apple Inc. All Rights Reserved.
 
 @implementation NetReachability
 
-static void _ReachabilityCallBack(SCNetworkReachabilityRef target, SCNetworkConnectionFlags flags, void* info)
-{
+static void _ReachabilityCallBack(
+                                  SCNetworkConnectionFlags flags,
+                                  void* info
+                                  ) {
 	NSAutoreleasePool*		pool = [NSAutoreleasePool new];
 	NetReachability*		self = (NetReachability*)info;
 	
@@ -95,8 +97,7 @@ static void _ReachabilityCallBack(SCNetworkReachabilityRef target, SCNetworkConn
 /*
 This will consume a reference of "reachability"
 */
-- (id) _initWithNetworkReachability:(SCNetworkReachabilityRef)reachability
-{
+- (id) _initWithNetworkReachability:(SCNetworkReachabilityRef)reachability {
 	if(reachability == NULL) {
 		[self release];
 		return nil;
@@ -110,8 +111,7 @@ This will consume a reference of "reachability"
 	return self;
 }
 
-- (id) initWithDefaultRoute:(BOOL)ignoresAdHocWiFi
-{
+- (id) initWithDefaultRoute:(BOOL)ignoresAdHocWiFi {
 	return [self initWithIPv4Address:(htonl(ignoresAdHocWiFi ? INADDR_ANY : IN_LINKLOCALNETNUM))]; //NOTE: INADDR_ANY and IN_LINKLOCALNETNUM are defined as a host-endian constants, so they should be byte swapped
 }
 
@@ -120,8 +120,7 @@ This will consume a reference of "reachability"
 	return [self _initWithNetworkReachability:(address ? SCNetworkReachabilityCreateWithAddress(kCFAllocatorDefault, address) : NULL)];
 }
 
-- (id) initWithIPv4Address:(UInt32)address
-{
+- (id) initWithIPv4Address:(UInt32)address {
 	struct sockaddr_in				ipAddress;
 	
 	bzero(&ipAddress, sizeof(ipAddress));
@@ -132,13 +131,11 @@ This will consume a reference of "reachability"
 	return [self initWithAddress:(struct sockaddr*)&ipAddress];
 }
 
-- (id) initWithHostName:(NSString*)name
-{
+- (id) initWithHostName:(NSString*)name {
 	return [self _initWithNetworkReachability:([name length] ? SCNetworkReachabilityCreateWithName(kCFAllocatorDefault, [name UTF8String]) : NULL)];
 }
 
-- (void) dealloc
-{
+- (void) dealloc {
 	[self setDelegate:nil];
 	
 	[_runLoop release];

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OptionTableViewUseCellularCell" customModule="WeatherForecast" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="OptionTableViewUseCellularCell" id="XAW-bB-a3q" customClass="OptionTableViewUseCellularCell">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XAW-bB-a3q" id="c5u-1b-9Fr">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4If-BT-6rD">
+                        <rect key="frame" x="24" y="11.666666666666664" width="300" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XHr-vd-lX9">
+                        <rect key="frame" x="334" y="6.6666666666666679" width="51" height="31.000000000000004"/>
+                        <connections>
+                            <action selector="onSwitchChange:" destination="XAW-bB-a3q" eventType="valueChanged" id="W4Y-RM-ZUY"/>
+                        </connections>
+                    </switch>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="XHr-vd-lX9" firstAttribute="leading" secondItem="4If-BT-6rD" secondAttribute="trailing" constant="10" id="0hg-dt-gEJ"/>
+                    <constraint firstAttribute="trailing" secondItem="XHr-vd-lX9" secondAttribute="trailing" constant="10" id="340-20-KX7"/>
+                    <constraint firstItem="4If-BT-6rD" firstAttribute="centerY" secondItem="c5u-1b-9Fr" secondAttribute="centerY" id="ABG-XB-0KE"/>
+                    <constraint firstItem="XHr-vd-lX9" firstAttribute="centerY" secondItem="c5u-1b-9Fr" secondAttribute="centerY" id="bhg-3K-VzS"/>
+                    <constraint firstItem="4If-BT-6rD" firstAttribute="leading" secondItem="c5u-1b-9Fr" secondAttribute="leading" constant="24" id="hTE-MH-f4y"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="Vp4-B7-cNC"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblTitle" destination="4If-BT-6rD" id="9yH-tH-R2x"/>
+                <outlet property="switchOption" destination="XHr-vd-lX9" id="s9m-ct-t6I"/>
+            </connections>
+            <point key="canvasLocation" x="-50" y="20"/>
+        </tableViewCell>
+    </objects>
+</document>

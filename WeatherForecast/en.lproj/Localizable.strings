@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  WeatherForecast
+
+  Created by Tran Thi Yen Linh on 9/4/25.
+  
+*/
+
+"AppName" = "Weather Forecast";
+"Version" = "Version %@";
+
+"UseCellular" = "Allow App Use Cellular Data";
+"SymbolExplain" = "Weather Icons Description";

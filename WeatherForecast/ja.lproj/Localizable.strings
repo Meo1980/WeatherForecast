@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  WeatherForecast
+
+  Created by Tran Thi Yen Linh on 9/4/25.
+  
+*/
+
+"AppName" = "天気予報";
+"Version" = "バージョン %@";
+
+"UseCellular" = "モバイルデータ通信を許可する";
+"SymbolExplain" = "天気アイコンの説明";

@@ -8,14 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WeatherForecastAppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
+@interface WeatherForecastAppDelegate : NSObject <UIApplicationDelegate> {
   UIWindow *window;
-  UITabBarController *tabBarController;
   BOOL isUsingGPRS;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UITabBarController *tabBarController;
 @property (nonatomic) BOOL			isUsingGPRS;
 
 @end
